@@ -1,0 +1,11 @@
+* {
+  box-sizing: inherit;
+  width: 100%;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+    
+}
