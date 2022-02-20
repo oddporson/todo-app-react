@@ -1,8 +1,8 @@
-import "./todocardlistitem.css";
+import "./cardlistitem.css";
 import TodoForm from "./TodoForm";
 import TodoList from "./TodoList";
 
-const TodoCardListItem = ({ title }) => {
+const CardListItem = ({ title }) => {
   return (
     <div className="card">
       <h2>{title}</h2>
@@ -12,4 +12,4 @@ const TodoCardListItem = ({ title }) => {
   );
 };
 
-export default TodoCardListItem;
+export default CardListItem;
