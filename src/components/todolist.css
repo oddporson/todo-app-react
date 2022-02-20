@@ -1,0 +1,12 @@
+li{ 
+  list-style: none;
+}
+
+ul {
+  background-color: rgb(48, 87, 147);
+  width: 180px;
+  padding: 5px;
+  margin: 10px;
+  color: white;
+  font-weight: bold;
+}

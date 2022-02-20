@@ -7,8 +7,6 @@ import NavBar from "./components/NavBar";
 import TodoCardList from "./components/TodoCardList";
 
 const App = () => {
-  const { cards, setCards } = useState([]);
-
   return (
     <main>
       <NavBar />

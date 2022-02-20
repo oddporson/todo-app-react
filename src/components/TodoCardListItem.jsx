@@ -1,18 +1,15 @@
 import "./todocardlistitem.css";
 import TodoForm from "./TodoForm";
+import TodoList from "./TodoList";
 
-const TodoCard = (props) => {
+const TodoCardListItem = (props) => {
   return (
-    <section className="cardlist">
-      <div className="card">
-        <h2>{props.title}</h2>
-        <TodoForm />
-        <ul>
-          <li>Wash dishes</li>
-        </ul>
-      </div>
-    </section>
+    <div className="card">
+      <h2>{props.title}</h2>
+      <TodoForm />
+      <TodoList />
+    </div>
   );
 };
 
-export default TodoCard;
+export default TodoCardListItem;
