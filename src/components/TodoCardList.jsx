@@ -1,9 +1,9 @@
-import TodoCard from "./TodoCard";
+import TodoCardListItem from "./TodoCardListItem";
 
 const TodoCardList = () => {
   return (
     <section>
-      <TodoCard title="Task List" />
+      <TodoCardListItem title="Task List" />
     </section>
   );
 };

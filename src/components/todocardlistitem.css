@@ -22,23 +22,6 @@
   justify-content: center;
 }
 
-.card input {
-  background-color: rgb(233, 233, 233);
-  width: 200px;
-  margin: 5px;
-  height: 20px;
-  padding: 5px;
-}
-
-.card button {
-  background-color: rgb(255, 255, 255);
-  width: 20px;
-  height: 20px;
-  font-weight: light;
-  font-size: 20px;
-  color: black;
-}
-
 .card li { 
   list-style: none;
 }
