@@ -16,7 +16,13 @@
   margin: 10px;
 }
 
-.nav button {
+.add-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.add-card button {
   background-color: rgb(255, 255, 255);
   color: rgb(65, 81, 114);
   width: 60px; 
@@ -24,4 +30,12 @@
   height: 20px;
   padding: 5px;
   margin: 10px;
+}
+
+.add-card input { 
+  width: 90px; 
+  height: 15px;
+  padding: 10px;
+  margin: 0;
+  background-color: red;
 }

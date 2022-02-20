@@ -1,11 +1,11 @@
 import "./todocardlist.css";
 
-import TodoCardListItem from "./TodoCardListItem";
+import CardListItem from "./CardListItem";
 
 const TodoCardList = () => {
   return (
     <section className="cardlist">
-      <TodoCardListItem title="Task List" />
+      <CardListItem title="TaskList" />
     </section>
   );
 };
