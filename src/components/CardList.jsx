@@ -2,7 +2,7 @@ import "./todocardlist.css";
 
 import CardListItem from "./CardListItem";
 
-const TodoCardList = () => {
+const CardList = () => {
   return (
     <section className="cardlist">
       <CardListItem title="TaskList" />
@@ -10,4 +10,4 @@ const TodoCardList = () => {
   );
 };
 
-export default TodoCardList;
+export default CardList;
