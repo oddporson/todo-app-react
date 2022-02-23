@@ -21,7 +21,7 @@ const App = () => {
   return (
     <main>
       <NavBar addList={addList} />
-      <CardList lists={lists} setLists={setLists} deleteList={deleteList} />
+      <CardList lists={lists} deleteList={deleteList} />
     </main>
   );
 };

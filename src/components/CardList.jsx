@@ -2,7 +2,7 @@ import "./cardlist.css";
 
 import CardListItem from "./CardListItem";
 
-const CardList = ({ lists, setLists, deleteList }) => {
+const CardList = ({ lists, deleteList }) => {
   // console.log(lists);
   const mappedCardListItem = lists.map((list) => (
     <CardListItem
