@@ -15,10 +15,10 @@
 }
 
 .form button {
-  background-color: rgb(255, 255, 255);
-  width: 20px;
+  background-color: rgb(65, 81, 114);
+  width: 100px;
   height: 20px;
-  font-weight: light;
-  font-size: 20px;
-  color: black;
+  font-weight: bold;
+  font-size: 13px;
+  color: rgb(255,255,255);
 }
