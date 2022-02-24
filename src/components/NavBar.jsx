@@ -6,8 +6,6 @@ import "./navbar.css";
 const NavBar = ({ addList }) => {
   const [list, setList] = useState({ id: "", title: "" });
 
-  // console.log(generateListId());
-
   const handleSubmitList = (e) => {
     e.preventDefault();
     addList({ ...list, id: uuid() });

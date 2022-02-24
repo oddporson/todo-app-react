@@ -3,7 +3,6 @@ import "./cardlist.css";
 import CardListItem from "./CardListItem";
 
 const CardList = ({ lists, deleteList }) => {
-  // console.log(lists);
   const mappedCardListItem = lists.map((list) => (
     <CardListItem
       title={list.title}
@@ -13,12 +12,7 @@ const CardList = ({ lists, deleteList }) => {
     />
   ));
 
-  return (
-    <section className="cardlist">
-      {/* <CardListItem title={list.title} /> */}
-      {mappedCardListItem}
-    </section>
-  );
+  return <section className="cardlist">{mappedCardListItem}</section>;
 };
 
 export default CardList;
