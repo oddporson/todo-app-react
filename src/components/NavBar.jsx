@@ -1,20 +1,16 @@
 import { useState } from "react";
+import uuid from "react-uuid";
+
 import "./navbar.css";
 
 const NavBar = ({ addList }) => {
   const [list, setList] = useState({ id: "", title: "" });
 
-  // console.log(list);
-
-  const generateListId = () => {
-    return Math.random().toString(6).slice(20);
-  };
-
   // console.log(generateListId());
 
   const handleSubmitList = (e) => {
     e.preventDefault();
-    addList({ ...list, id: generateListId() });
+    addList({ ...list, id: uuid() });
     setList({ ...list, title: "" });
   };
 
