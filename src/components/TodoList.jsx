@@ -1,13 +1,22 @@
 import "./todolist.css";
 
-const TodoList = () => {
+import TodoListItem from "./TodoListItem";
+
+const TodoList = ({ tasks }) => {
+  console.log("hello tasks prop", tasks);
+
+  const mappedTodoListItem = tasks.map((task) => (
+    <TodoListItem
+      key={task.id}
+      id={task.id}
+      todo={task.todo}
+      isCompleted={task.isCompleted}
+    />
+  ));
+
   return (
     <div className="todo-list">
-      <ul>
-        <li>Wash dishes</li>
-        <li>Walk dog</li>
-        <li>Practice kata coding</li>
-      </ul>
+      <ul>{mappedTodoListItem}</ul>
     </div>
   );
 };
