@@ -1,0 +1,30 @@
+.listitem {
+  border: red solid 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.listitem button {
+  /* border: 2px solid red; */
+  width: 3em;
+  padding: 5px;
+}
+
+.listitem li {
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .checked {
+  border: solid 2px red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.listitem input {
+  border: 2px solid green;
+} */
