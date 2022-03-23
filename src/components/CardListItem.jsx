@@ -18,6 +18,7 @@ const CardListItem = ({ title, deleteList, id }) => {
   return (
     <div className="card">
       <h2>{title}</h2>
+      <button>edit list</button>
       <TodoForm addTask={addTask} />
       <TodoList tasks={tasks} />
       <button
